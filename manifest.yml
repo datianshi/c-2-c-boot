@@ -1,0 +1,10 @@
+---
+applications:
+- name: server-c2c
+  memory: 1g
+  path: server/target/server-0.0.1-SNAPSHOT-exec.jar
+  env:
+    STORE_PASS: shaozhen
+- name: client-c2c
+  memory: 1g
+  path: client/target/client-0.0.1-SNAPSHOT.jar

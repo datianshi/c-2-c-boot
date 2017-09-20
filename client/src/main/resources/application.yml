@@ -1,0 +1,5 @@
+server:
+  port: 8080
+
+backend:
+  server: https://server.mutual.shaozhenpcf.com
