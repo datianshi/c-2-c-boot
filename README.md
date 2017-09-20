@@ -11,7 +11,7 @@
 
 * One front end Application (client) with /hello endpoint.
 * One Backend application (server) with /hello endpoint.
-* Server uses [.profile.d](server/src/main/java/resources/.profile.d/init.sh) to load the certs from diego instance identity env vars
+* Server uses [.profile.d](server/src/main/resources/profile/.profile.d/init.sh) to load the certs from diego instance identity env vars
 * Server opens two ports: one for 8080 to expose the internal IP through gorouter. One for ssl works with overlay network (c-2-c)
 * Server mutual ssl is **want**, which means client certificate is optional
 * /hello endpoint requires client certificate to be trusted and enforced by spring security.
